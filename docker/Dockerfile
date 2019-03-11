@@ -21,14 +21,8 @@ run apk add git
 
 
 #run gunzip cow-linux64-0.9.8.gz
-run echo "proxy = socks5://192.168.1.25:1080" >> ~/.cow/rc
 
 run apk add bash
-
-env http_proxy=http://127.0.0.1:7777
-env https_proxy=http://127.0.0.1:7777
-
-env SOCKS5_PROXY=192.168.1.25:1080
 
 env COOKIES=Please_insert_cookies
 
